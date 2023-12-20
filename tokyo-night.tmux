@@ -16,7 +16,7 @@ SCRIPTS_PATH="$CURRENT_DIR/src"
 
 cmus_status="#($SCRIPTS_PATH/cmus-tmux-statusbar.sh)"
 git_status="#($SCRIPTS_PATH/git-status.sh #{pane_current_path})"
-custom_number="#($SCRIPTS_PATH/custom-number.sh #{window_index} -d)"
+custom_number="#($SCRIPTS_PATH/custom-number.sh #{window_index} -S)"
 custom_pane="#($SCRIPTS_PATH/custom-number.sh #P -O)"
 
 #+--- Bars LEFT ---+
